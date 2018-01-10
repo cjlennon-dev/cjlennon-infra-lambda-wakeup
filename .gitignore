@@ -1,0 +1,5 @@
+*.env
+*.config.*
+lambda/node_modules/
+lambda/build-output/
+

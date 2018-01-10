@@ -1,0 +1,19 @@
+{
+  "name": "cjlennon-infra-lambda-wakeup",
+  "author": "Chris Lennon",
+  "version": "0.1.0",
+  "description": "Iterate through lambdas described in an environment variable and invoke them",
+  "main": "index.js",
+  "scripts": {
+    "wakeup": "node mock/mock.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.179.0",
+    "dotenv": "^4.0.0"
+  }
+}
