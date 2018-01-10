@@ -45,7 +45,7 @@ exports.handler = (event, context, callback) => {
             // ... in parallel
       yield functionArray
 
-      console.log('all Lambda functions have been woken up')
+      context.succeed('all Lambda functions have been woken up')
     } catch (err) {
       errorHelper.logError(event, err.Message, 'all lambdas were not woken up', err)
 
